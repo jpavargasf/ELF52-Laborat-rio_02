@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\Exerc_10\Exerc_10.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\Exerc_11\Exerc_11.ewp</path>
+    </project>
     <batchBuild />
 </workspace>
