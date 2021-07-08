@@ -11,6 +11,7 @@
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C129ENC.icf</file>
             <file>$PROJ_DIR$\Debug\Exe\Exerc_11.out</file>
             <file>$PROJ_DIR$\Debug\List\Exerc_11.map</file>
+            <file>$PROJ_DIR$\..\Exerc_10\asm.s</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\asm.s</name>

@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.2.313/W64 for ARM                  07/Jul/2021  19:33:27
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  07/Jul/2021  22:38:19
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
@@ -50,10 +50,10 @@ No sections matched the following patterns:
   .intvec   ro code          0x0    0x40  asm.o [1]
                           - 0x40    0x40
 
-"P1":                               0x4e
-  .text     ro code         0x40    0x4c  asm.o [1]
-  .text     ro code         0x8c     0x2  asm.o [1]
-                          - 0x8e    0x4e
+"P1":                               0x74
+  .text     ro code         0x40    0x72  asm.o [1]
+  .text     ro code         0xb2     0x2  asm.o [1]
+                          - 0xb4    0x74
 
 "P2":                             0x8000
   CSTACK             0x2000'0000  0x8000  <Block>
@@ -64,7 +64,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-         0x8e     0xf'ffff  0xf'ff72
+         0xb4     0xf'ffff  0xf'ff4c
   0x2000'8000  0x2003'ffff  0x3'8000
 
 
@@ -80,13 +80,13 @@ command line/config:
     Total:
 
 C:\Users\User\Desktop\aulas 2021 01\Sistemas Microcontrolados\aulas semanas\04\Laboratório_02\Exerc_11\Debug\Obj: [1]
-    asm.o               142
+    asm.o               180
     --------------------------------
-    Total:              142
+    Total:              180
 
     Linker created            32'768
 ------------------------------------
-    Grand Total:        142   32'768
+    Grand Total:        180   32'768
 
 
 *******************************************************************************
@@ -103,7 +103,7 @@ __vector_table               0x0        Data  Gb  asm.o [1]
 
 [1] = C:\Users\User\Desktop\aulas 2021 01\Sistemas Microcontrolados\aulas semanas\04\Laboratório_02\Exerc_11\Debug\Obj
 
-     142 bytes of readonly  code memory
+     180 bytes of readonly  code memory
   32'768 bytes of readwrite data memory
 
 Errors: none
