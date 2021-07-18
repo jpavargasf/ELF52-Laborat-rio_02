@@ -1,4 +1,4 @@
-# Laboratorio_02
+# Laboratorio_02 e 03
  lab_02_ex10_ex11
 
 João Paulo Vargas da Fonseca
