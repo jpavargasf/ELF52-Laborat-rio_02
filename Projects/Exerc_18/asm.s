@@ -63,10 +63,12 @@ __iar_program_start
 
 main
         BL GPIO_config                  ;configura os PORTS N, F e J
-
+        BL operation
+        B main
+        
 operation
         MOVS R0, #0                     ;contador
-operation_loop
+operation_loop                          ;loop infinito
         BL LED_output                   ;escreve R0 nos leds
         BL SW_input                     ;espera o pressionamento de botão
         CMP R1, #1                      ;prioridade ao SW1
@@ -74,6 +76,7 @@ operation_loop
           ADDEQ R0, #1                  ;SW1
           SUBNE R0, #1                  ;SW2
         B operation_loop
+        BX LR
 
 ;escreve nos leds os 4 LSBs de R0 - abcd
 LED_output
