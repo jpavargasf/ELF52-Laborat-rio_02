@@ -1,0 +1,9 @@
+# ninja log v5
+8	103	6489710552217817	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/Exerc_20_5/Debug/Obj/gpio_int.o	6b879075e7fce996
+18	115	6489710552227812	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/Exerc_20_5/Debug/Obj/startup_TM4C129E.o	176ad3095a2c841d
+125	326	6489710554486518	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/Exerc_20_5/Debug/Exe/Exerc_20_5.out	da2ee941c98328c5
+5	95	6489712376562184	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/Exerc_20_5/Debug/Obj/gpio_int.o	6b879075e7fce996
+102	329	6489712378887649	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/Exerc_20_5/Debug/Exe/Exerc_20_5.out	da2ee941c98328c5
+2	80	6489720429064806	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/Exerc_20_5/Debug/Obj/gpio_int.o	74d7988b122a01b6
+15	114	6489720429074799	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/Exerc_20_5/Debug/Obj/startup_TM4C129E.o	790fc28b6ff7bce0
+127	226	6489720430483985	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/Exerc_20_5/Debug/Exe/Exerc_20_5.out	da2ee941c98328c5
