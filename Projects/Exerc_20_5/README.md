@@ -3,4 +3,5 @@
 <ul>
 	<li>Alterado para configurar SW1 e SW2 para atuar em interrupções,não somente SW1.</li>
 	<li>É obtido qual botão foi apertado pela leitura do registrador GPIO_RIS</li>
+	<li>Bloco IT para obter qual botão foi apertado</li>
 <ul>
