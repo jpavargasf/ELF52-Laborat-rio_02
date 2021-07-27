@@ -1,8 +1,7 @@
+<h1>João Paulo Vargas da Fonseca</h1>
 lab_02_ex10
-
-João Paulo Vargas da Fonseca
-
-Exerc_10:
+<div>
+<h3>Exerc_10:</h3><div>
             Foi feito levando em conta que qualquer número posiivo
             maior que zero pode ser escrito na forma
 
@@ -19,3 +18,4 @@ Exerc_10:
             ou seja, foi criada uma sub-rotina "Mul16b" que é responsável
             por preparar e finalizar a multiplicação, que é feita em
             uma sub-rotina "aux" recursiva.
+</div></div>
