@@ -2,6 +2,7 @@
 <h4>Comentários</h4>
 <ul>
     <li>Foi utilizado o arquivo UART2 como base</li>
+    <li>Duração de transmissão de caractere : 12/300 = 40 ms</li>
 </ul>
 <h3>Funções importantes:</h3>
 
@@ -120,3 +121,11 @@ main
             BL wait_CR              ;espera pelo caractere '\r'
             BL transfer_string      ;escreve a string "Sistemas Microcontrolados\r\n"
             B loop
+
+<h3>Criada uma seção de constandes em ROM</h3>
+
+            SECTION .rodata:CONST(2)
+            DATA
+    ROM08   DC8  "Sistemas Microcontrolados"
+    CR      DC8     0x0D      ;'\r'
+    LF      DC8     0x0A      ;'\n'
