@@ -10,7 +10,7 @@
     <li>Transfere a string "Sistemas Microcontrolados\r\n" através da UART</li>
     <li>Cada Byte transferido pela função wtx</li>
 </ul>
-```assembly
+```
 ;transfer_string transfere o conteudo de ROM08 seguido por CR e LF
 ;R0 = endereco da UART
 ;destrói R1, R2, R3
@@ -42,7 +42,7 @@ ts_CRLF
     <li>Espera receber o caractere '\r'</li>
     <li>Cada Byte lido pela função wrx</li>
 </ul>
-```assembly
+```
 ;wait_CR espera pelo caractere '\r'
 ;R0 = endereco da UART
 ;destrói R1, R2, R3
@@ -64,7 +64,7 @@ ACK_CR
     <li>Espera Tx esvaziar para enviar o byte</li>
     <li>É o mesmo label que há em uart2, só que agora como função</li>
 </ul>
-```assembly
+```
 ;R3 = dado a ser escrito
 wtx     LDR R4, [R0, #UART_FR] ; status da UART
         TST R4, #TXFE_BIT ; transmissor vazio?
@@ -78,7 +78,7 @@ wtx     LDR R4, [R0, #UART_FR] ; status da UART
     <li>Espera Rx estar cheio para fazer a leitura</li>
     <li>É o mesmo label que há em uart2, só que agora como função</li>
 </ul>
-```assembly
+```
 ;retorna R3 como dado lido
 wrx
         LDR R4, [R0, #UART_FR] ; status da UART
@@ -93,7 +93,7 @@ UART_config
 <ul>
     <li>IBRD = 3333 e FBRD = 22 para 300bps</li>
 </ul>
-```assembly
+```
         ; clock = 16MHz, baud rate = 300 bps
         MOV R1, #3333
         STR R1, [R0, #UART_IBRD]
@@ -105,7 +105,7 @@ UART_config
     <li>WLEN = 0x3, FEN = 0, STP2 = 1, PEN = 1, EPS = 1</li>
     <li>1 byte de dado, FIFO disabled, 2 stop bits, paridade par, paridade habilitada</li>
 </ul>
-```assembly
+```
         ; 8 bits, 2 stops, even parity, FIFOs disabled, no interrupts
         MOV R1, #01101110b
         STR R1, [R0, #UART_LCRH]
@@ -114,7 +114,7 @@ main
 <ul>
     <li>Loop infinito de esperar o caractere desejado e escrever a string</li>
 </ul>
-```assembly
+```
 loop:
         BL wait_CR              ;espera pelo caractere '\r'
         BL transfer_string      ;escreve a string "Sistemas Microcontrolados\r\n"
