@@ -86,8 +86,8 @@ main:   MOV R2, #(UART0_BIT)
         
 
 loop:
-        BL wait_CR
-        BL transfer_string
+        BL wait_CR              ;espera pelo caractere '\r'
+        BL transfer_string      ;escreve a string "Sistemas Microcontrolados\r\n"
         B loop
 
 
@@ -183,62 +183,49 @@ waitg	LDR R0, [R0, #SYSCTL_PRGPIO]
         BX LR
 
 
-; SW_delay: atraso de tempo por software
-; R0 = valor do atraso
-; Destrói: R0
-SW_delay:
-        CBZ R0, out_delay
-        SUB R0, R0, #1
-        B SW_delay        
-out_delay:
-        BX LR
-
-
-
 ;wait_CR espera pelo caractere '\r'
 ;R0 = endereco da UART
+;destrói R1, R2, R3
 wait_CR
         PUSH {LR}
-        LDR R1, =CR
-        LDRB R2, [R1]
+        LDR R1, =CR             ;endereço de '\r'
+        LDRB R2, [R1]           ;R2 = '\r'
 w_CR_loop
-        BL wrx
-        //LDR R3, [R0]
-        CMP R2, R3
+        BL wrx                  ;recebe dado
+        CMP R2, R3              ;é '\r'?
         BEQ ACK_CR
         B w_CR_loop
     
 ACK_CR
         POP {PC}
-        //BX LR
+
 ;transfer_string transfere o conteudo de ROM08 seguido por CR e LF
 ;R0 = endereco da UART
+;destrói R1, R2, R3
 transfer_string
         PUSH {LR}
-        LDR R1, =ROM08
-        MOVS R2, #0
+        LDR R1, =ROM08          ;endereço de início da string
+        MOVS R2, #0             ;contador
 ts_loop
-        CMP R2, #25
+        CMP R2, #25             ;já escreveu toda a string?
         BEQ ts_CRLF
-        LDRB R3, [R1, R2]
-        //STR R3, [R0]
-        BL wtx
+        LDRB R3, [R1, R2]       ;carrega byte        
+        BL wtx                  ;transmite byte
         ADD R2, #1
         B ts_loop
         
 ts_CRLF
-        LDR R1, =CR
-        LDRB R3, [R1]
-        //STR R3, [R0]
-        BL wtx
+        LDR R1, =CR             ;endereço de '\r'
+        LDRB R3, [R1]           ;'\r'
+        BL wtx                  ;transmite byte
         
-        LDR R1, =LF
-        LDRB R3, [R1]
-        //STR R3, [R0]
-        BL wtx
+        LDR R1, =LF             ;endereço de '\n'
+        LDRB R3, [R1]           ;'\n'
+        BL wtx                  ;transmite byte
         
         POP {PC}
 
+;retorna R3 como dado lido
 wrx
         LDR R4, [R0, #UART_FR] ; status da UART
         TST R4, #RXFF_BIT ; receptor cheio?
@@ -246,7 +233,7 @@ wrx
         LDR R3, [R0] 
 
         BX LR
-
+;R3 = dado a ser escrito
 wtx     LDR R4, [R0, #UART_FR] ; status da UART
         TST R4, #TXFE_BIT ; transmissor vazio?
         BEQ wtx
