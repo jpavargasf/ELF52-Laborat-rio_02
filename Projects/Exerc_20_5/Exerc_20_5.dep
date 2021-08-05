@@ -5,33 +5,30 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o</file>
+            <file>$PROJ_DIR$\Debug\List\Exerc_20_5.map</file>
             <file>$PROJ_DIR$\src\startup_TM4C129E.s</file>
             <file>$PROJ_DIR$\src\gpio_int.s</file>
-            <file>$PROJ_DIR$\gpio_int.s</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio_int.o.rsp</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o.rsp</file>
-            <file>$PROJ_DIR$\Debug\Exe\Exerc_20_5.out</file>
-            <file>$PROJ_DIR$\..\Exerc_18\asm.s</file>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C129ENC.icf</file>
+            <file>$PROJ_DIR$\Debug\Exe\Exerc_20_5.out</file>
             <file>$PROJ_DIR$\Debug\Obj\gpio_int.o</file>
+            <file>$PROJ_DIR$\gpio_int.s</file>
             <file>$PROJ_DIR$\startup_TM4C129E.s</file>
-            <file>$PROJ_DIR$\Debug\List\Exerc_20_5.map</file>
-            <file>$PROJ_DIR$\..\Exerc_11\asm.s</file>
-            <file>$PROJ_DIR$\asm.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio_int.o.rsp</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\src\startup_TM4C129E.s</name>
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 4</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 5</file>
+                    <file> 4</file>
                 </tool>
             </inputs>
         </file>
@@ -40,28 +37,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 9</file>
+                    <file> 7</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 3</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\gpio_int.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 9</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 3</file>
+                    <file> 10</file>
                 </tool>
             </inputs>
         </file>
@@ -70,13 +52,28 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 11</file>
+                    <file> 1</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 8 9 4</file>
+                    <file> 5 7 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\gpio_int.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 10</file>
                 </tool>
             </inputs>
         </file>
@@ -85,13 +82,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 4</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 5</file>
+                    <file> 4</file>
                 </tool>
             </inputs>
         </file>
@@ -100,7 +97,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 6 11</file>
+                    <file> 1 6</file>
                 </tool>
             </outputs>
         </file>

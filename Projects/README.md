@@ -15,3 +15,7 @@
 <lu>
     <li><a href="Exerc_20_5/" target="_blank">Exercício 20.5</a></li>
 </lu>
+<h3>Laboratório 05</h3>
+<lu>
+    <li><a href="Ex21_UART/" target="_blank">Exercício 21 - UART</a></li>
+</lu>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspace>
     <project>
+        <path>$WS_DIR$\Projects\Ex21_UART\Ex21_UART.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\Projects\Exerc_10\Exerc_10.ewp</path>
     </project>
     <project>
