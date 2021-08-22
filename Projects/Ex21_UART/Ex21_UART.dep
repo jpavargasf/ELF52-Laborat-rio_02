@@ -5,52 +5,55 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\src\asm.s</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o</file>
             <file>$PROJ_DIR$\Debug\Obj\asm.o.rsp</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\Ex21_UART.out</file>
+            <file>$PROJ_DIR$\Debug\List\Ex21_UART.map</file>
+            <file>$PROJ_DIR$\src\asm.s</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o.rsp</file>
             <file>$PROJ_DIR$\Debug\Obj\asm.o</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C129ENC.icf</file>
-            <file>$PROJ_DIR$\Debug\List\Ex21_UART.map</file>
-            <file>$PROJ_DIR$\Debug\Exe\Ex21_UART.out</file>
             <file>$PROJ_DIR$\src\startup_TM4C129E.s</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C129ENC.icf</file>
+            <file>$PROJ_DIR$\..\Exerc_20_5\src\gpio_int.s</file>
+            <file>$PROJ_DIR$\..\Exerc_18\asm.s</file>
+            <file>$PROJ_DIR$\..\Exerc_10\asm.s</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 6 7</file>
+                    <file> 3 2</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\asm.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 4</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 2</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\Ex21_UART.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 6</file>
+                    <file> 3</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 5 4 1</file>
+                    <file> 8 6 1</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\asm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 0</file>
                 </tool>
             </inputs>
         </file>
@@ -65,7 +68,7 @@
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 3</file>
+                    <file> 5</file>
                 </tool>
             </inputs>
         </file>

@@ -1,0 +1,118 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  21/Aug/2021  22:19:19
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\User\Desktop\aulas 2021 01\Sistemas
+#        Microcontrolados\Laboratório_02\Projects\finalProject\Debug\Exe\finalProject.out
+#    Map file     =
+#        C:\Users\User\Desktop\aulas 2021 01\Sistemas
+#        Microcontrolados\Laboratório_02\Projects\finalProject\Debug\List\finalProject.map
+#    Command line =
+#        -f "C:\Users\User\Desktop\aulas 2021 01\Sistemas
+#        Microcontrolados\Laboratório_02\Projects\finalProject\Debug\Exe\finalProject.out.rsp"
+#        ("C:\Users\User\Desktop\aulas 2021 01\Sistemas
+#        Microcontrolados\Laboratório_02\Projects\finalProject\Debug\Obj\asm.o"
+#        "C:\Users\User\Desktop\aulas 2021 01\Sistemas
+#        Microcontrolados\Laboratório_02\Projects\finalProject\Debug\Obj\startup_TM4C129E.o"
+#        --no_out_extension -o "C:\Users\User\Desktop\aulas 2021 01\Sistemas
+#        Microcontrolados\Laboratório_02\Projects\finalProject\Debug\Exe\finalProject.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "C:\Users\User\Desktop\aulas 2021 01\Sistemas
+#        Microcontrolados\Laboratório_02\Projects\finalProject\Debug\List\finalProject.map"
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C129ENC.icf" --semihosting
+#        --no_library_search --entry __iar_program_start --vfe --text_out
+#        locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0xf'ffff] { ro };
+define block CSTACK with size = 32K, alignment = 8 { };
+define block HEAP with size = 64K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2003'ffff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                              0x3c0
+  .intvec   ro code          0x0   0x3c0  startup_TM4C129E.o [1]
+                         - 0x3c0   0x3c0
+
+"P1":                              0x296
+  .text     ro code        0x3c0   0x28c  asm.o [1]
+  .rodata   const          0x64c     0x7  asm.o [1]
+  .text     ro code        0x654     0x2  startup_TM4C129E.o [1]
+                         - 0x656   0x296
+
+"P2":                             0x8000
+  CSTACK             0x2000'0000  0x8000  <Block>
+    CSTACK  uninit   0x2000'0000  0x8000  <Block tail>
+                   - 0x2000'8000  0x8000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x656     0xf'ffff  0xf'f9aa
+  0x2000'8000  0x2003'ffff  0x3'8000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module              ro code  ro data  rw data
+    ------              -------  -------  -------
+command line/config:
+    ---------------------------------------------
+    Total:
+
+C:\Users\User\Desktop\aulas 2021 01\Sistemas Microcontrolados\Laboratório_02\Projects\finalProject\Debug\Obj: [1]
+    asm.o                   652        7
+    startup_TM4C129E.o      962
+    ---------------------------------------------
+    Total:                1'614        7
+
+    Gaps                      1
+    Linker created                         32'768
+-------------------------------------------------
+    Grand Total:          1'615        7   32'768
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address  Size  Type      Object
+-----                     -------  ----  ----      ------
+CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit         0x2000'8000         --   Gb  - Linker created -
+__Vectors                     0x0         --   Gb  startup_TM4C129E.o [1]
+__Vectors_End               0x3c0        Data  Gb  startup_TM4C129E.o [1]
+__Vectors_Size {Abs}        0x3c0         --   Gb  startup_TM4C129E.o [1]
+__iar_program_start         0x3c1        Code  Gb  asm.o [1]
+__vector_table                0x0        Data  Gb  startup_TM4C129E.o [1]
+__vector_table_0x1c          0x1c        Data  Gb  startup_TM4C129E.o [1]
+
+
+[1] = C:\Users\User\Desktop\aulas 2021 01\Sistemas Microcontrolados\Laboratório_02\Projects\finalProject\Debug\Obj
+
+   1'615 bytes of readonly  code memory
+       7 bytes of readonly  data memory
+  32'768 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

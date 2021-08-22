@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>990374485</fileChecksum>
+    <fileChecksum>3832119004</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C129ENC.icf</file>
-            <file>$PROJ_DIR$\Debug\Exe\Exerc_17.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\asm.o.rsp</file>
+            <file>$PROJ_DIR$\src\asm.s</file>
+            <file>$PROJ_DIR$\Debug\List\finalProject.map</file>
             <file>$PROJ_DIR$\Debug\Obj\asm.o</file>
-            <file>$PROJ_DIR$\asm.s</file>
-            <file>$PROJ_DIR$\Debug\List\Exerc_17.map</file>
+            <file>$PROJ_DIR$\Debug\Exe\finalProject.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\asm.o.rsp</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o.rsp</file>
+            <file>$PROJ_DIR$\src\startup_TM4C129E.s</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\Exerc_17.out</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 5</file>
+                    <file> 4 2</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 0 3</file>
-                </tool>
-            </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\asm.s</name>
+            <name>$PROJ_DIR$\src\asm.s</name>
             <outputs>
                 <tool>
                     <name>AARM</name>
@@ -38,18 +35,39 @@
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 2</file>
+                    <file> 5</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\Debug\Exe\finalProject.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 5 1</file>
+                    <file> 2</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 0 3 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\startup_TM4C129E.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 7</file>
+                </tool>
+            </inputs>
         </file>
         <forcedrebuild>
             <name>[MULTI_TOOL]</name>

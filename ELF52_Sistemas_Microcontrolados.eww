@@ -21,5 +21,8 @@
     <project>
         <path>$WS_DIR$\Projects\Exerc_20_5\Exerc_20_5.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\Projects\finalProject\finalProject.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

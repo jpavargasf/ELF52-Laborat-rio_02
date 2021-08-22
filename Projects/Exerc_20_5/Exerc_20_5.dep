@@ -5,30 +5,30 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\src\startup_TM4C129E.s</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o</file>
             <file>$PROJ_DIR$\Debug\List\Exerc_20_5.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o.rsp</file>
-            <file>$PROJ_DIR$\src\gpio_int.s</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio_int.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\Exerc_20_5.out</file>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C129ENC.icf</file>
-            <file>$PROJ_DIR$\gpio_int.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o.rsp</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_TM4C129E.o</file>
+            <file>$PROJ_DIR$\src\startup_TM4C129E.s</file>
+            <file>$PROJ_DIR$\src\gpio_int.s</file>
             <file>$PROJ_DIR$\Debug\Obj\gpio_int.o.rsp</file>
             <file>$PROJ_DIR$\startup_TM4C129E.s</file>
+            <file>$PROJ_DIR$\Debug\Exe\Exerc_20_5.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio_int.o</file>
+            <file>$PROJ_DIR$\gpio_int.s</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\src\startup_TM4C129E.s</name>
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 1</file>
+                    <file> 3</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 3</file>
+                    <file> 2</file>
                 </tool>
             </inputs>
         </file>
@@ -37,13 +37,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 5</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 9</file>
+                    <file> 6</file>
                 </tool>
             </inputs>
         </file>
@@ -52,22 +52,37 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 2 6</file>
+                    <file> 0 8</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_TM4C129E.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 2</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\Exerc_20_5.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 2</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 7 5 1</file>
+                    <file> 1 9 3</file>
                 </tool>
             </inputs>
         </file>
@@ -76,28 +91,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 5</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>AARM</name>
                     <file> 9</file>
                 </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\startup_TM4C129E.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 1</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 3</file>
+                    <file> 6</file>
                 </tool>
             </inputs>
         </file>

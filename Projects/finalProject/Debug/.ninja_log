@@ -1,0 +1,49 @@
+# ninja log v5
+513	569	6512157685203956	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/startup_TM4C129E.o	a71a17e4cc23b64
+1	22	6512158337478641	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+30	481	6512158341949709	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+2	83	6512158971084387	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+92	185	6512158972091723	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+2	47	6512161945294308	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+56	214	6512161946855494	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+2	28	6512222000696611	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+36	512	6512222005392777	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+14	866	6512644219826144	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+885	2005	6512644230996246	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+5	722	6512674627561683	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+730	1341	6512674633692149	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+1	27	6512695332434611	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+35	110	6512695333164199	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+2	27	6512696066626063	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+36	104	6512696067335659	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+2	61	6512697784751606	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+70	165	6512697785751025	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+2	31	6512824374273303	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+2	31	6512825064007732	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+1	36	6512834166456021	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+1	36	6512846199604611	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+2	28	6512846542372586	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+1	30	6512847289859075	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+2	34	6512847867479496	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+2	64	6512852003551821	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+2	51	6512862254841166	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+2	39	6512862360987099	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+2	30	6512862431843406	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+1	35	6512863355150522	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+2	32	6512863755405482	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+2	42	6512864393916929	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+1	29	6512877326581517	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+38	117	6512877327381592	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+2	34	6512879969987572	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+42	172	6512879971175442	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+1	29	6512906561600737	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+37	126	6512906562490210	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+3	67	6512907663533199	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+75	218	6512907664752504	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+1	25	6512953954672825	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+35	552	6512953959844760	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+1	54	6512978964681096	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Obj/asm.o	1a24dafd1055fead
+63	145	6512978965520151	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Projeto Final/JoaoPauloVargasdaFosneca_finalProject/Projects/Debug/Exe/finalProject.out	4955f6adaac20ceb
+3	93	6512983593353378	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/finalProject/Debug/Obj/asm.o	f3e4935f88480fc8
+10	125	6512983593919330	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/finalProject/Debug/Obj/startup_TM4C129E.o	1747b3b82af8b1f8
+139	285	6512983595257079	C:/Users/User/Desktop/aulas 2021 01/Sistemas Microcontrolados/Laboratório_02/Projects/finalProject/Debug/Exe/finalProject.out	8fa8cd8c02ff4e82
